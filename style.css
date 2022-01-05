@@ -1,0 +1,73 @@
+/* Variable definition */
+/* Pen's SCSS */
+body {
+  background: rgba(44, 43, 43, 0.993);
+}
+body.fp-viewing-0 {
+  background-position: center 0%;
+}
+body.fp-viewing-1 {
+  background-position: center 50%;
+}
+body.fp-viewing-2 {
+  background-position: center 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+img {
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  transition: line-height 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+h1,
+h2 {
+  font-family: "Roboto", sans-serif;
+  max-width: 830px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 64px;
+  overflow: hidden;
+  line-height: 3.5;
+  transition: line-height 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+  color: rgba(248, 248, 248, 0.993);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: -6px;
+  font-weight: normal;
+}
+
+.section.active h1,
+.section.active h2 {
+  line-height: 1;
+}
+
+.social-link div {
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+}
+
+.social-link a, i {
+  font-size: 60px;
+  padding: 0 10px;
+  transition: color 0.15s linear;
+  color: #ffffff;
+}
+
+.social-link a, i:hover {
+  transition: color 0.15s linear;
+  color: #a1a1a1;
+}
